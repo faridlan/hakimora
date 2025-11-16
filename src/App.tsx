@@ -1,10 +1,9 @@
 import AboutSection from './components/AboutSection'
 import ContactSection from './components/ContactSection'
 import Footer from './components/Footer'
-import Header from './components/header'
-import Hero from './components/hero'
+import Hero from './components/Hero'
+import Header from './components/Header'
 import ProjectsSection from './components/ProjectSection'
-
 
 function App() {
   return (
@@ -22,6 +21,5 @@ function App() {
     </>
   )
 }
-
 
 export default App
