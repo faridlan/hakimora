@@ -1,6 +1,7 @@
 function Header() {
     return (
-        <header className='w-full py-6 px-6 md:px-12 flex items-center justify-between bg-[#111] shadow-lg'>
+        <header className='w-full py-6 px-6 md:px-12 flex items-center justify-between 
+                          bg-[#111]/90 shadow-lg sticky top-0 z-50 backdrop-blur'>
             <h1 className='text-2xl font-bold text-white'>Faridlan Nul Hakim</h1>
             <nav className='space-x-6 text-sm text-gray-300'>
                 <a href='#projects' className='hover:text-white'>Projects</a>
@@ -10,6 +11,5 @@ function Header() {
         </header>
     )
 }
-
 
 export default Header
