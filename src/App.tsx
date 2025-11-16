@@ -4,6 +4,7 @@ import Footer from './components/Footer'
 import Hero from './components/Hero'
 import Header from './components/Header'
 import ProjectsSection from './components/ProjectSection'
+import ExperienceSection from './components/ExperienceSection'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <main className='w-full px-6 md:px-12 lg:px-20 xl:px-32'>
           <Hero />
           <ProjectsSection />
+          <ExperienceSection />
           <AboutSection />
           <ContactSection />
         </main>
