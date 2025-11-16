@@ -1,0 +1,27 @@
+import AboutSection from './components/AboutSection'
+import ContactSection from './components/ContactSection'
+import Footer from './components/Footer'
+import Header from './components/header'
+import Hero from './components/hero'
+import ProjectsSection from './components/ProjectSection'
+
+
+function App() {
+  return (
+    <>
+      <div className='min-h-screen bg-[#0d0d0d] text-gray-200 w-full'>
+        <Header />
+        <main className='w-full px-6 md:px-12 lg:px-20 xl:px-32'>
+          <Hero />
+          <ProjectsSection />
+          <AboutSection />
+          <ContactSection />
+        </main>
+        <Footer />
+      </div>
+    </>
+  )
+}
+
+
+export default App
