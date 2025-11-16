@@ -36,7 +36,7 @@ function Hero() {
                     </a>
 
                     <a
-                        href="/src/assets/CV_Faridlan Nul Hakim.pdf"
+                        href="/assets/CV_Faridlan Nul Hakim.pdf"
                         download
                         className='px-6 py-3 rounded-xl border border-gray-500 text-gray-300 font-semibold hover:border-gray-300 transition'
                     >
@@ -50,7 +50,7 @@ function Hero() {
             <div className='flex-1 flex justify-center mb-10 md:mb-0'>
                 <div className='relative w-80 h-80 md:w-80 md:h-80 rounded-full overflow-hidden shadow-2xl border border-gray-700 bg-[#111]'>
                     <img
-                        src='/src/assets/faridlan.jpg'
+                        src='/assets/faridlan.jpg'
                         alt='Faridlan photo'
                         className='w-full h-full object-cover object-[50%_70%]'
                     />
